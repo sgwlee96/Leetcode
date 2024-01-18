@@ -4,8 +4,4 @@ class Solution(object):
         :type n: str
         :rtype: int
         """
-        lst = []
-        for i in n:
-            lst.append(int(i))
-            
-        return max(lst)
+        return int(max(n))
